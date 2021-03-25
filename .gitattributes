@@ -1,2 +1,45 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+1)What is interface
+
+1)What is interface
+Пользовательский тип данных. В котором пишутся public,static методы. 
+В джаве реализовано множественное наследование через интерфейсы
+
+2)Whet is enum
+Пользоательский тип данных основная функция которого хранить константы
+
+3)How to use inheritance in Java
+Наследование используется чтобы переиспользовать уже написанный код. 
+Чтобы не изменять какойто класс 
+если существует угроза что наши изменения что-то сломают. 
+Мы наследуем этот класс и изменяем наследника
+
+4)Types of Inheritance in Java
+В джава используется обычное наследование 
+т.е. у производного класса может быть только один базовый класс
+
+5)How to declare an interface, write a syntax?
+public interface name extends ... {
+}
+
+6)Does interface extend Object class by default?
+Все классы наследованы от Object а так как интерфейс это класс то наследуется
+
+7)Can interface extend another interface, class?
+Другой интерфейс да. Класс нет.
+
+8)Can we dont diclare method in class that implements interface?
+Да если этот метод дефолтный. 
+В противном случае класс будет абстрактным 
+т.к. будет содержать метод без тела.
+
+9)Default keyword in interface, fields in interface
+default позволяет написать метод с какойто логикой.
+Поля в интерфейсе могут быть только public static final
+
+10)Can use Enum in the switch?
+Yes
+
+11)Can I declare constructor for Enum?
+Yes

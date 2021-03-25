@@ -1,7 +1,8 @@
 import enums.Products;
+import product.Door;
 import product.Product;
 
-public interface ProductRelease {
+public interface ProductRelease  {
     default void printProduct(Product obj) {
         switch (obj.getProduct().name()) {
             case "HOME" : {
@@ -21,4 +22,5 @@ public interface ProductRelease {
             }
         }
     }
+
 }
