@@ -14,6 +14,8 @@
 4)Types of Inheritance in Java
 В джава используется обычное наследование 
 т.е. у производного класса может быть только один базовый класс
+Еще применяется композиция 
+это когда полем класса прописывается объект другого класса.
 
 5)How to declare an interface, write a syntax?
 public interface name extends ... {
